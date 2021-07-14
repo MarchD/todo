@@ -1,5 +1,11 @@
 @import "styles/utils";
 
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .title {
   font-size: 7rem;
 }
