@@ -1,3 +1,5 @@
+@import "utils";
+
 *,
 *::before,
 *::after {
@@ -10,11 +12,11 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Montserrat, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.6rem;
-  color: #000;
+  color: $c-black;
 }
 
 code {

@@ -1,8 +1,12 @@
 import React from "react";
+import {IntroLayout} from "../layouts/IntroLayout/IntroLayout";
+import styles from './index.module.scss';
 
-const Intro = () => {
+export const Intro = () => {
   return (
-    <div>Todos</div>
+    <IntroLayout>
+      <h1 className={styles.title}>Todo</h1>
+    </IntroLayout>
   )
 }
 
