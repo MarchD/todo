@@ -1,3 +1,1 @@
-import {IntroLayout} from "./IntroLayout";
-
-export default IntroLayout;
+export {IntroLayout} from "./IntroLayout";
